@@ -1,12 +1,15 @@
 body {
     background-color: whitesmoke;
-    font-family: Verdana;  
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;  
 }
 
 .profile {
     max-width: 100px;
     border-radius: 50%;
     border: 1px solid #505050;
+    display: flex;
 }
 
 #title, .subtitle, .post_title {
@@ -16,6 +19,7 @@ body {
 #title {
     font-size: 40px;
     text-transform: uppercase;
+    display: flex;
 }
 
 a {
@@ -42,15 +46,16 @@ a {
 .post_content{
     margin: 0;
     margin-bottom: 15px;
-    border: #505050;
-    border-width: 2px;
     text-transform: capitalize;
+    text-align: justify;
+
 } 
 
 
 
 .post_image{
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .contacts_list{
