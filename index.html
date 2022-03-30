@@ -3,24 +3,47 @@
   <head>
     <meta charset="utf-8" />
     <title>Rafael Morais</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-        <img src="perfil.jpg" alt="Foto de Rafael Morais">
-      <h1>Rafael Morais</h1>
+      <img src="src/perfil.jpg" alt="Foto de Rafael Morais" class="profile"/>
+      <h1 id="title">Rafael Morais</h1>
     </header>
     <section>
       <header>
-        <h2>Posts</h2>
+        <h2 class="subtitle">Posts</h2>
       </header>
-      <article>
-        <header>
-          <h3>Post #1</h3>
-          <img src="ilustraçao.jpg" alt="Código binário com fundo verde">
+      <article class="post">
+        <header >
+          <h3 class="post_title">Post #1</h3>
+          <img src="src/ilustraçao.jpg" alt="Código HTML de perto" class="post_image"/>
         </header>
-        <p><a href="https://www.linkedin.com/in/rafaelmoraisazevedo/" target="_blank">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut atque eum, doloremque laudantium deserunt, tempore molestias esse sunt fuga provident beatae? Dolor dolores ullam similique impedit totam facere, libero soluta?</a></p>
+        <p class="post_content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut atque eum,
+          doloremque laudantium deserunt, tempore molestias esse sunt fuga
+          provident beatae? Dolor dolores ullam similique impedit totam facere,
+          libero soluta?
+        </p>
       </article>
     </section>
-    <footer></footer>
+    <footer>
+        <h3>Meus contatos</h3>
+      <ul class="contacts_list">
+        <li>
+          <a href="mailto:rafarelomorais@gmail.com">Mande um email</a>
+        </li>
+        <li>
+          <a href="https://github.com/rafareloM" target="_blank">Meu github</a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/rafaelmoraisazevedo/"
+            target="_blank"
+            >Meu linkedin</a
+          >
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
